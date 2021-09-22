@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-cli",
+  "version": "1.0.0",
+  "description": "simple monorepo cli",
+  "main": "index.js",
+  "bin": {
+    "meno": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "kweku",
+    "email": "gouwenkang@meituan.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "fs-extra": "^10.0.0"
+  }
+}
